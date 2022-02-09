@@ -11,7 +11,7 @@ wrap.addEventListener('click', (e) => {
 })
 
 function lineMove(w) {
-    let num = w - 566
+    let num = w - 6
     line.style.width = num + 'px';
     calculations(num)
 }
